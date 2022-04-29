@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+	font: 16px "Trebuchet MS", Helvetica, sans-serif;
+	background: white;
+}
+
+#container{
+	background: white;
+	width: 90%;
+	margin: 0 auto;
+	min-width: 720px;
+	max-width: 1280px;
+}
+
+#area-menu ul li {
+    margin-top: 20px;
+	width: 15%;
+	list-style: none;
+	float: right;
+	line-height: 2em;
+	text-indent: 3em;
+	background: url(../img/quem-somos.jpg) no-repeat left;
+	
+}
+#area-menu-teste ul li {
+    margin-top: 20px;
+	width: 20%;
+	max-width: 20%;
+	list-style: none;
+	display: inline;
+	float: right;
+	line-height: 2em;
+	text-indent: 3em;
+	background: url(../img/login.jpg) no-repeat;
+}
+
+#area-menu-t ul li {
+    margin-top: 20px;
+	width: 20%;
+	max-width: 15%;
+	list-style: none;
+	display: inline;
+	float: right;
+	line-height: 2em;
+	text-indent: 3em;
+	background: url(../img/atendimento.jpg) no-repeat;
+}
+
+#area-menu-tt ul li {
+    margin-top: 20px;
+	width: 20%;
+	max-width: 20%;
+	list-style: none;
+	display: inline;
+	float: right;
+	line-height: 2em;
+	text-indent: 3em;
+	background: url(../img/orcamento.jpg) no-repeat;
+}
+
+
+#area-menu a,
+#area-menu-t a,
+#area-menu-tt a,
+#area-menu-teste a{
+	text-decoration: none;
+	color: orange;
+}
+#area-menu a:hover,
+#area-menu-t a:hover,
+#area-menu-tt a:hover,
+#area-menu-teste a:hover{
+	text-decoration: underline;
+}
+
+#form{
+    background-image: linear-gradient(rgb(66, 66, 66), rgb(255, 255, 255));
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+    grid-template-areas:
+    'lf rt';
+    padding: 15%;
+    padding-bottom: 25%;
+}
+footer{
+    color: rgb(201, 116, 5);
+    text-align: center;
+    margin-bottom: 0px;
+}
+#lf{
+    margin-top: 10px;
+    grid-area: lf;
+}
+#lf a{
+    color: white;
+    text-decoration: none;
+}
+#lf a:hover{
+    color: rgb(201, 116, 5);
+}
+#lf input{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+}
+#lf input::placeholder{
+    color: rgba(255, 255, 255, 0.438);
+}
+button{
+    color: white;
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(201, 116, 5);
+    padding: 5px 20px;
+    margin-left: 75%;
+}
+button:hover{
+    background-color: white;
+    color: rgb(201, 116, 5);
+}
+#rt{
+    color: rgb(201, 116, 5);
+    grid-area: rt;
+}
+
