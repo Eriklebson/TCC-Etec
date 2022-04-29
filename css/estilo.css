@@ -1,0 +1,218 @@
+body {
+	font: 16px "Trebuchet MS", Helvetica, sans-serif;
+	background: white;
+}
+
+/* Área de cabeçalho título */
+#area-cabecalho h1,
+#area-cabecalho h2{
+	color: orange;
+	line-height: 0.1;
+}
+/* Área  de seleção de menu horizontal*/
+#container{
+	background: white;
+	width: 90%;
+	margin: 0 auto;
+	min-width: 720px;
+	max-width: 1280px;
+}
+
+#area-menu-quem-somos ul li {
+	width: 15%;
+	list-style: none;
+	float: right;
+	line-height: 2em;
+	text-indent: 3em;
+	background: url(../img/quem-somos.jpg) no-repeat left;
+	
+}
+#area-menu-login ul li {
+	width: 20%;
+	max-width: 20%;
+	list-style: none;
+	display: inline;
+	float: right;
+	line-height: 2em;
+	text-indent: 3em;
+	background: url(../img/login.jpg) no-repeat;
+}
+
+#area-menu-atendimento ul li {
+	width: 20%;
+	max-width: 15%;
+	list-style: none;
+	display: inline;
+	float: right;
+	line-height: 2em;
+	text-indent: 3em;
+	background: url(../img/atendimento.jpg) no-repeat;
+}
+
+#area-menu-orcamento ul li {
+	width: 20%;
+	max-width: 20%;
+	list-style: none;
+	display: inline;
+	float: right;
+	line-height: 2em;
+	text-indent: 3em;
+	background: url(../img/orcamento.jpg) no-repeat;
+}
+
+
+#area-menu-quem-somos a,
+#area-menu-atendimento a,
+#area-menu-orcamento a,
+#area-menu-login a{
+	text-decoration: none;
+	color: orange;
+}
+#area-menu-quem-somos a:hover,
+#area-menu-atendimento a:hover,
+#area-menu-orcamento a:hover,
+#area-menu-login a:hover{
+	text-decoration: underline;
+}
+
+/*Imagem principal e campo de busca*/
+
+#texto-principal-img{
+	color: white;
+	text-align: center;
+	line-height: 6em;
+	text-indent: 16em;
+}
+#img-principal{
+	height: 500px;
+	width: 100%;
+	background: url(../img/mecanico.jpg) no-repeat center;
+}
+
+#campo-busca{
+	padding-right: 70px;
+	color: white;
+	display: flex;
+	float: right;
+	height: 40px;
+}
+#campo-busca-two{
+padding-top: -40px;
+padding-left: -50px;
+display: flex;
+float: right;
+height: 40px;
+}
+
+#butao-buscar{
+	margin-top: -1px;
+	padding: 10px;
+	color: white;
+	float: right;
+	border-radius: 0px 12px 12px 0px;
+	background: orange;
+}
+
+/*Texto principal e os seus serviços parte do meio*/
+
+#texto-principal-servicos{
+	color: orange;
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.flex-conteiner{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+h5{
+	color: orange;
+	text-indent: -7em;
+	height: 250px;
+}
+
+/*Área agenda*/
+
+.fundo-agendamento article{
+	background: orange;
+}
+.agendar a {
+	color: black;
+	text-decoration: none;
+	line-height: 3em;
+	margin: 8em;
+	width: 30px;
+	background-color: white;
+}
+.agenda{
+	padding: 2px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+.ajuste-inferior{
+	margin-top: -150px;
+}
+
+
+
+.info-agenda p {
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	color: white;
+	text-indent: 8em;
+	background: orange;
+}
+
+
+/*Serve para limpar o fluxo flutuante/ Não REMOVER*/
+
+.clear{
+	clear: both;
+}
+
+/*Área de solicitação do orçamento. OBS:botão do zap*/
+
+
+#fundo-solicite-orc{
+	background-color: gray;
+	color: white;
+}
+
+
+#texto-campo-orc{
+	float: left;
+	text-indent: 3em;
+	line-height: 0.1em;
+	margin-top: 30px;
+}
+
+
+#ajuste-campo-orc{
+	float: right;
+	width: 24%;
+	padding-left: 1em;
+}
+
+
+#texto-botao{
+	float: right;
+	margin-right: 2em;
+	font-size: 19px;
+	color: green;
+	height: 42px;
+
+}
+
+#botao-zap{
+	color: white;
+	border-radius: 12px 12px 12px 12px;
+	background: green;
+	float: right;
+	padding: 15px;
+	margin-right: 6em;
+	margin-top: -1.5em;
+	margin-bottom: 1em;
+}
